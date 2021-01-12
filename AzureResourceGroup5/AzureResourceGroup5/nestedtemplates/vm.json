@@ -48,7 +48,7 @@
     "vmImagePublisher": "Canonical",
     "vmImageOffer": "UbuntuServer",
     "vmOSDiskName": "[concat(parameters('vmName'), '_OS-Disk')]",
-    "vmSize": "Standard_D2_v2",
+    "vmSize": "Standard_D1_v2",
     "vmVnetID": "[resourceId(resourceGroup().name, 'Microsoft.Network/virtualNetworks', 'vnet')]",
     "vmSubnetRef": "[concat(variables('vmVnetID'), '/subnets/', parameters('subnetName'))]",
     "vmStorageAccountContainerName": "vhds",
