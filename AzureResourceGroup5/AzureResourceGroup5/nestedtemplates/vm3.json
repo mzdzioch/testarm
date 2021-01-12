@@ -31,8 +31,8 @@
       "type": "string",
       "defaultValue": "2016-R2-Datacenter",
       "allowedValues": [
-        "2012-Datacenter",
-        "2012-R2-Datacenter"
+        "2016-Standard",
+        "2019-Datacenter-Core"
       ]
     },
     "location": {
