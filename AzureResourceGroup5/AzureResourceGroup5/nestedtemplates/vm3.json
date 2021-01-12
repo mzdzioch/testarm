@@ -29,7 +29,7 @@
     },
     "vmWindowsOSVersion": {
       "type": "string",
-      "defaultValue": "2016-R2-Datacenter"
+      "defaultValue": "2019-Datacenter"
     },
     "location": {
       "type": "string",
