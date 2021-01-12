@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "con-crm-dev-ubvm-1"
+    },
+    "subnetName": {
+      "value": "Subnet-1"
+    },
+    "vmAdminUserName": {
+      "value": "adminos"
+    },
+    "vmAdminPassword": {
+      "value": "passwordP@SSWORD"
+    }
+
+  }
+}
